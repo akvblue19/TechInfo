@@ -1,0 +1,279 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/tech"
+    tools:context=".technology_list">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_margin="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="#0ff"
+                        android:src="@drawable/ai"
+                        android:scaleType="fitXY"
+                        android:layout_weight="2"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <Button
+                        android:id="@+id/tech1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="ARTIFICIAL\n INTELLIGENCE"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:background="@color/colorPrimary"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="#0ff"
+                        android:src="@drawable/cloudcomputing"
+                        android:scaleType="fitXY"
+                        android:layout_weight="2"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <Button
+                        android:id="@+id/tech2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="cloud computing"
+                        android:textSize="15sp"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:background="@color/colorPrimary"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="#0ff"
+                        android:src="@drawable/intenet_o_thing"
+                        android:scaleType="fitXY"
+                        android:layout_weight="2"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <Button
+                        android:id="@+id/tech3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="iot"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="#0ff"
+                        android:src="@drawable/bigdata"
+                        android:scaleType="fitXY"
+                        android:layout_weight="2"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <Button
+                        android:id="@+id/tech4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="big data"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:background="@color/colorPrimary"
+                        android:layout_weight="1"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:background="#0ff"
+                        android:scaleType="fitXY"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/speech_recognition" />
+
+                    <Button
+                        android:id="@+id/tech5"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:textColor="#fff"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:text="speech recognition"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="#0ff"
+                        android:src="@drawable/androidlist"
+                        android:scaleType="fitXY"
+                        android:layout_weight="2"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <Button
+                        android:id="@+id/tech6"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="android"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="#0ff"
+                        android:src="@drawable/photo7_2"
+                        android:scaleType="fitXY"
+                        android:layout_weight="2"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <Button
+                        android:id="@+id/tech7"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="cryptocurrency"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:textColor="#fff"
+                        android:gravity="center"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:background="#0ff"
+                        android:src="@drawable/qc"
+                        android:scaleType="fitXY"
+                        android:layout_weight="2"
+                        android:layout_marginBottom="5dp"
+                        />
+
+                    <Button
+                        android:id="@+id/tech8"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="quantum computing"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:textColor="#fff"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+          </ScrollView>
+
+
+</LinearLayout>

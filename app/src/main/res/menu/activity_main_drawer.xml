@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ho"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_technologies"
+            android:icon="@drawable/t"
+            android:title="Technologies" />
+        <item
+            android:id="@+id/nav_newsfeed"
+            android:icon="@drawable/n"
+            android:title="Newsfeed" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/r"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+</menu>

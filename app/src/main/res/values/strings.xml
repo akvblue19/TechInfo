@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TechInfo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="text1">Fast-moving magnetic particles could enable new form of data storage</string>
+    <string name="text2">Faster big-data analysis</string>
+    <string name="text3">Material could bring optical communication onto silicon chips</string>
+    <string name="text4">Robot learns to follow orders like Alexa</string>
+</resources>
+

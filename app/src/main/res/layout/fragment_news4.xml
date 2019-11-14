@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.techinfo.news4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/imagenews4"
+                android:scaleType="fitXY"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="9dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:textSize="25dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:text="Robot learns to follow orders like Alexa"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:text="ComText, from the Computer Science and Artificial Intelligence Laboratory, allows robots to understand contextual commands."
+                        android:textSize="20sp"
+                        android:padding="10dp"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                       android:text="Despite what you might see in movies, today’s robots are still very limited in what they can do. They can be great for many repetitive tasks, but their inability to understand the nuances of human language makes them mostly useless for more complicated requests.
+For example, if you put a specific tool in a toolbox and ask a robot to “pick it up,” it would be completely lost. Picking it up means being able to see and identify objects, understand commands, recognize that the “it” in question is the tool you put down, go back in time to remember the moment when you put down the tool, and distinguish the tool you put down from other ones of similar shapes and sizes.
+Recently researchers from MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL) have gotten closer to making this type of request easier: In a new paper, they present an Alexa-like system that allows robots to understand a wide range of commands that require contextual knowledge about objects and their environments. They've dubbed the system “ComText,” for “commands in context.”
+The toolbox situation above was among the types of tasks that ComText can handle. If you tell the system that “the tool I put down is my tool,” it adds that fact to its knowledge base. You can then update the robot with more information about other objects and have it execute a range of tasks like picking up different sets of objects based on different commands.
+“Where humans understand the world as a collection of objects and people and abstract concepts, machines view it as pixels, point-clouds, and 3-D maps generated from sensors,” says CSAIL postdoc Rohan Paul, one of the lead authors of the paper. “This semantic gap means that, for robots to understand what we want them to do, they need a much richer representation of what we do and say.”
+The team tested ComText on Baxter, a two-armed humanoid robot developed for Rethink Robotics by former CSAIL director Rodney Brooks.
+The project was co-led by research scientist Andrei Barbu, alongside research scientist Sue Felshin, senior research scientist Boris Katz, and Professor Nicholas Roy. They presented the paper at last week’s International Joint Conference on Artificial Intelligence (IJCAI) in Australia.
+"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:padding="10dp"/>
+
+                    />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:id="@+id/more4"
+                android:text="more...."
+                android:textColor="#0f0"
+                android:textSize="15sp"
+                android:background="#fff"
+                android:gravity="top"
+
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

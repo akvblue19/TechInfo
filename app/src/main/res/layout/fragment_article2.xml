@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.techinfo.article2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="Cloud computing is a general term for the delivery of hosted services over the internet.\n
+Cloud computing enables companies to consume a compute resource, such as a virtual machine (VM), storage or an application, as a utility -- just like electricity -- rather than having to build and maintain computing infrastructures in house.\n
+Cloud computing characteristics and benefits\n
+Cloud computing boasts several attractive benefits for businesses and end users. Five of the main benefits of cloud computing are:\n
+•	Self-service provisioning:\n End users can spin up compute resources for almost any type of workload on demand. This eliminates the traditional need for IT administrators to provision and manage compute resources.\n
+•	Elasticity:\n Companies can scale up as computing needs increase and scale down again as demands decrease. This eliminates the need for massive investments in local infrastructure, which may or may not remain active.\n
+•	Pay per use: \nCompute resources are measured at a granular level, enabling users to pay only for the resources and workloads they use.\n
+•	Workload resilience:\n Cloud service providers often implement redundant resources to ensure resilient storage and to keep users' important workloads running -- often across multiple global regions.\n
+•	Migration flexibility:\n Organizations can move certain workloads to or from the cloud -- or to different cloud platforms -- as desired or automatically for better cost savings or to use new services as they emerge.
+
+"
+               />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/article2_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="more....."
+                    android:gravity="top|center"
+                    android:textColor="#0f0"
+                    android:background="#fff"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

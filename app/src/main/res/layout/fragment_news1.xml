@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.techinfo.news1">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/imagenews1"
+            android:scaleType="fitXY"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:layout_margin="9dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:textSize="25dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:text="Fast-moving magnetic particles could enable new form of data storage"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#fff"
+                    android:text="Recently discovered phenomenon could provide a way to bypass the limits to Moore’s Law."
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:textColor="#000"/>
+
+                />
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:padding="10dp"
+                    android:text="New research has shown that an exotic kind of magnetic behavior discovered just a few years ago holds great promise as a way of storing data — one that could overcome fundamental limits that might otherwise be signaling the end of “Moore’s Law,” which describes the ongoing improvements in computation and data storage over recent decades.\n
+Rather than reading and writing data one bit at a time by changing the orientation of magnetized particles on a surface, as today’s magnetic disks do, the new system would make use of tiny disturbances in magnetic orientation, which have been dubbed “skyrmions.” These virtual particles, which occur on a thin metallic film sandwiched against a film of different metal, can be manipulated and controlled using electric fields, and can store data for long periods without the need for further energy input.
+In 2016, a team led by MIT associate professor of materials science and engineering Geoffrey Beach documented the existence of skyrmions, but the particles’ locations on a surface were entirely random. Now, Beach has collaborated with others to demonstrate experimentally for the first time that they can create these particles at will in specific locations, which is the next key requirement for using them in a data storage system. An efficient system for reading that data will also be needed to create a commercializable system.
+The new findings are reported this week in the journal Nature Nanotechnology, in a paper by Beach, MIT postdoc Felix Buettner, and graduate student Ivan Lemesh, and 10 others at MIT and in Germany.
+The system focuses on the boundary region between atoms whose magnetic poles are pointing in one direction and those with poles pointing the other way. This boundary region can move back and forth within the magnetic material, Beach says. What he and his team found four years ago was that these boundary regions could be controlled by placing a second sheet of nonmagnetic heavy metal very close to the magnetic layer. The nonmagnetic layer can then influence the magnetic one, with electric fields in the nonmagnetic layer pushing around the magnetic domains in the magnetic layer. Skyrmions are little swirls of magnetic orientation within these layers, Beach adds.
+The key to being able to create skyrmions at will in particular locations, it turns out, lay in material defects. By introducing a particular kind of defect in the magnetic layer, the skyrmions become pinned to specific locations on the surface, the team found. Those surfaces with intentional defects can then be used as a controllable writing surface for data encoded in the skyrmions. The team realized that instead of being a problem, the defects in the material could actually be beneficial.
+"
+                    android:textColor="#000"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:id="@+id/more1"
+            android:text="more...."
+            android:textColor="#0f0"
+            android:textSize="15sp"
+            android:background="#fff"
+            android:gravity="top"
+            
+            android:layout_margin="10dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"></LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

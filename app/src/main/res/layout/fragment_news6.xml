@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.techinfo.news6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/imagenews6"
+                android:scaleType="fitXY"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="9dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:textSize="25dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:text="Bringing neural networks to cellphones"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:text="Method for modeling neural networks’ power consumption could help make the systems portable."
+                        android:textSize="20sp"
+                        android:padding="10dp"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:text="In recent years, the best-performing artificial-intelligence systems — in areas such as autonomous driving, speech recognition, computer vision, and automatic translation — have come courtesy of software systems known as neural networks.
+But neural networks take up a lot of memory and consume a lot of power, so they usually run on servers in the cloud, which receive data from desktop or mobile devices and then send back their analyses.
+Last year, MIT associate professor of electrical engineering and computer science Vivienne Sze and colleagues unveiled a new, energy-efficient computer chip optimized for neural networks, which could enable powerful artificial-intelligence systems to run locally on mobile devices.
+Now, Sze and her colleagues have approached the same problem from the opposite direction, with a battery of techniques for designing more energy-efficient neural networks. First, they developed an analytic method that can determine how much power a neural network will consume when run on a particular type of hardware. Then they used the method to evaluate new techniques for paring down neural networks so that they’ll run more efficiently on handheld devices.
+The researchers describe the work in a paper they’re presenting next week at the Computer Vision and Pattern Recognition Conference. In the paper, they report that the methods offered as much as a 73 percent reduction in power consumption over the standard implementation of neural networks, and as much as a 43 percent reduction over the best previous method for paring the networks down.
+Energy evaluator
+Loosely based on the anatomy of the brain, neural networks consist of thousands or even millions of simple but densely interconnected information-processing nodes, usually organized into layers. Different types of networks vary according to their number of layers, the number of connections between the nodes, and the number of nodes in each layer.
+"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:padding="10dp"/>
+
+                    />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:id="@+id/more6"
+                android:text="more...."
+                android:textColor="#0f0"
+                android:textSize="15sp"
+                android:background="#fff"
+                android:gravity="top"
+
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

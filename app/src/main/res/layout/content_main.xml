@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.techinfo.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+
+                        android:layout_margin="8dp">
+                    <ImageView
+                            android:id="@+id/img"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY" />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="300dp"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:background="#808080" />
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp">
+                    <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="5dp">
+                        <TextView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="4"
+
+                                android:gravity="center_vertical"
+                                android:text="         TECHNOLOGY"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+                        <ImageView
+                                android:layout_width="50dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/gears" />
+                        <Button
+                                android:id="@+id/bt_tech"
+                                android:layout_width="80dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="280dp"
+                                android:background="@drawable/riight" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                <View
+                    android:layout_width="300dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="#808080" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Newsfeed"
+                    android:textSize="25dp"
+                    android:textColor="#000"
+                    android:gravity="bottom"
+                    android:layout_marginLeft="14dp"
+                    />
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:orientation="vertical">
+                    <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="14dp"
+                                    android:background="#808080"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="15dp"
+                                    android:background="#fff">
+
+                                    <android.support.v4.widget.NestedScrollView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="100dp">
+
+                                                <ImageView
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_weight="1"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/imagenews1" />
+
+                                                <Button
+                                                    android:id="@+id/homenews1"
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="3"
+                                                    android:background="#006400"
+                                                    android:textColor="#fff"
+                                                    android:layout_margin="5dp"
+                                                    android:text="Fast-moving magnetic particles could enable new form of data storage" />
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="100dp">
+
+                                                <ImageView
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_weight="1"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/imagenews2" />
+
+                                                <Button
+                                                    android:id="@+id/homenews2"
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="3"
+                                                    android:background="#006400"
+                                                    android:textColor="#fff"
+                                                    android:layout_margin="5dp"
+                                                    android:text="Faster big-data analysis" />
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="100dp">
+
+                                                <ImageView
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_weight="1"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/imagenews3" />
+
+                                                <Button
+                                                    android:id="@+id/homenews3"
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="3"
+                                                    android:background="#006400"
+                                                    android:textColor="#fff"
+                                                    android:layout_margin="5dp"
+                                                    android:text="Material could bring optical communication onto silicon chips" />
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="100dp">
+
+                                                <ImageView
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_weight="1"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/imagenews4" />
+
+                                                <Button
+                                                    android:id="@+id/homenews4"
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="3"
+                                                    android:background="#006400"
+                                                    android:textColor="#fff"
+                                                    android:layout_margin="5dp"
+                                                    android:text="Robot learns to follow orders like Alexa" />
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="100dp">
+
+                                                <ImageView
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_weight="1"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/imagenews5" />
+
+                                                <Button
+                                                    android:id="@+id/homenews5"
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="3"
+                                                    android:background="#006400"
+                                                    android:textColor="#fff"
+                                                    android:layout_margin="5dp"
+                                                    android:text="Using machine learning to improve patient care" />
+
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="100dp">
+
+                                                <ImageView
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_margin="5dp"
+                                                    android:layout_weight="1"
+                                                    android:scaleType="fitXY"
+                                                    android:src="@drawable/imagenews6" />
+
+                                                <Button
+                                                    android:id="@+id/homenews6"
+                                                    android:layout_width="0dp"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_weight="3"
+                                                    android:background="#006400"
+                                                    android:textColor="#fff"
+                                                    android:layout_margin="5dp"
+                                                    android:text="Bringing neural networks to cellphones" />
+
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </android.support.v4.widget.NestedScrollView>
+
+                                </LinearLayout>
+
+
+                            </RelativeLayout>
+
+                        </FrameLayout>
+
+
+
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="71dp"
+                        android:layout_margin="9dp"
+                        android:background="#808080">
+
+                    </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:background="#fff"
+                    android:layout_margin="10dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5"
+                        android:paddingLeft="20dp"
+                        android:text="find us on"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:textColor="#000"/>
+
+                    <ImageButton
+                        android:id="@+id/fb"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:background="@drawable/ff"
+                        android:layout_margin="5dp"
+                        />
+                </LinearLayout>
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="all copyrights are reserved"
+                        android:gravity="bottom"/>
+                </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            >
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

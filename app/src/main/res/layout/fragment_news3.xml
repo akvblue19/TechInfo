@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.techinfo.news3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/imagenews3"
+                android:scaleType="fitXY"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="9dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:textSize="25dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:text="Material could bring optical communication onto silicon chips"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:text="Ultrathin films of a semiconductor that emits and detects light can be stacked on top of silicon "
+                        android:textSize="20sp"
+                        android:padding="10dp"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:text="The huge increase in computing performance in recent decades has been achieved by squeezing ever more transistors into a tighter space on microchips.
+However, this downsizing has also meant packing the wiring within microprocessors ever more tightly together, leading to effects such as signal leakage between components, which can slow down communication between different parts of the chip. This delay, known as the “interconnect bottleneck,” is becoming an increasing problem in high-speed computing systems.
+One way to tackle the interconnect bottleneck is to use light rather than wires to communicate between different parts of a microchip. This is no easy task, however, as silicon, the material used to build chips, does not emit light easily, according to Pablo Jarillo-Herrero, an associate professor of physics at MIT.
+Now, in a paper published today in the journal Nature Nanotechnology, researchers describe a light emitter and detector that can be integrated into silicon CMOS chips. The paper’s first author is MIT postdoc Ya-Qing Bie, who is joined by Jarillo-Herrero and an interdisciplinary team including Dirk Englund, an associate professor of electrical engineering and computer science at MIT.
+The device is built from a semiconductor material called molybdenum ditelluride. This ultrathin semiconductor belongs to an emerging group of materials known as two-dimensional transition-metal dichalcogenides.
+Unlike conventional semiconductors, the material can be stacked on top of silicon wafers, Jarillo-Herrero says.
+“Researchers have been trying to find materials that are compatible with silicon, in order to bring optoelectronics and optical communication on-chip, but so far this has proven very difficult,” Jarillo-Herrero says. “For example, gallium arsenide is very good for optics, but it cannot be grown on silicon very easily because the two semiconductors are incompatible.”
+I"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:padding="10dp"/>
+
+                    />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:id="@+id/more3"
+                android:text="more...."
+                android:textColor="#0f0"
+                android:textSize="15sp"
+                android:background="#fff"
+                android:gravity="top"
+
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

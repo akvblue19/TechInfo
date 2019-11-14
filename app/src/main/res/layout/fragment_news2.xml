@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.techinfo.news2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/imagenews2"
+                android:scaleType="fitXY"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="9dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:textSize="25dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:text="Faster big-data analysis"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="#fff"
+                        android:text="System for performing “tensor algebra” offers 100-fold speedups over previous software packages."
+                        android:textSize="20sp"
+                        android:padding="10dp"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:text="We live in the age of big data, but most of that data is “sparse.” Imagine, for instance, a massive table that mapped all of Amazon’s customers against all of its products, with a “1” for each product a given customer bought and a “0” otherwise. The table would be mostly zeroes.
+With sparse data, analytic algorithms end up doing a lot of addition and multiplication by zero, which is wasted computation. Programmers get around this by writing custom code to avoid zero entries, but that code is complex, and it generally applies only to a narrow range of problems.
+At the Association for Computing Machinery’s Conference on Systems, Programming, Languages and Applications: Software for Humanity (SPLASH), researchers from MIT, the French Alternative Energies and Atomic Energy Commission, and Adobe Research recently presented a new system that automatically produces code optimized for sparse data.
+That code offers a 100-fold speedup over existing, non-optimized software packages. And its performance is comparable to that of meticulously hand-optimized code for specific sparse-data operations, while requiring far less work on the programmer’s part.
+The system is called Taco, for tensor algebra compiler. In computer-science parlance, a data structure like the Amazon table is called a “matrix,” and a tensor is just a higher-dimensional analogue of a matrix. If that Amazon table also mapped customers and products against the customers’ product ratings on the Amazon site and the words used in their product reviews, the result would be a four-dimensional tensor.
+“Sparse representations have been there for more than 60 years,” says Saman Amarasinghe, an MIT professor of electrical engineering and computer science (EECS) and senior author on the new paper. “But nobody knew how to generate code for them automatically. People figured out a few very specific operations — sparse matrix-vector multiply, sparse matrix-vector multiply plus a vector, sparse matrix-matrix multiply, sparse matrix-matrix-matrix multiply. The biggest contribution we make is the ability to generate code for any tensor-algebra expression when the matrices are sparse.”
+Joining Amarasinghe on the paper are first author Fredrik Kjolstad, an MIT graduate student in EECS; Stephen Chou, also a graduate student in EECS; David Lugato of the French Alternative Energies and Atomic Energy Commission; and Shoaib Kamil of Adobe Research.
+Custom kernels
+"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:padding="10dp"/>
+
+                    />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:id="@+id/more2"
+                android:text="more...."
+                android:textColor="#0f0"
+                android:textSize="15sp"
+                android:background="#fff"
+                android:gravity="top"
+
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

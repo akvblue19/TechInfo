@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.techinfo.article7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+               android:text="Cryptocurrency is a form of digital money that is designed to be secure and, in many cases, anonymous. \n
+It is a currency associated with the internet that uses cryptography, the process of converting legible information into an almost uncrackable code, to track purchases and transfers.\n
+Cryptography was born out of the need for secure communication in the Second World War. It has evolved in the digital era with elements of mathematical theory and computer science to become a way to secure communications, information and money online. \n
+The first cryptocurrency was bitcoin, which was created in 2009 and is still the best known. There has been a proliferation of cryptocurrencies in the past decade and there are now more than 900 available on the internet. \n
+Cryptocurrencies use decentralised technology to let users make secure payments and store money without the need to use their name or go through a bank. They run on a distributed public ledger called blockchain, which is a record of all transactions updated and held by currency holders.\n
+"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/article7_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="more....."
+                    android:gravity="top|center"
+                    android:textColor="#0f0"
+                    android:background="#fff"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

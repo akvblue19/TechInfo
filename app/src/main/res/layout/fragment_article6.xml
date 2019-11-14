@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.techinfo.article4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+               android:text="Android is software for mobile phones, tablets and a growing range of devices encompassing everything from wearable computing to in-car entertainment. It launched in 2003 and is the world’s most popular mobile operating system (OS).\n
+Android is an open source project (led by Google but it doesn't belong to them) called AOSP (Android Open Source Project). Google uses this project as a base to create its version of Android, which is then used by the other manufacturers. \n
+As an OS, Android's job is to act as a translator between you and your gadget. When you take a photo, Android provides the button you tap and tells the phone what to do when you tap it. When you make or receive a call, Android tells your phone how to do that. When you play a game, Android tells the game what movements you’re making and what buttons you’re pressing. It’s like Windows, but for mobile devices.\n
+The Android software itself is developed in conjunction with Google, who releases major updates to the platform every year. Manufacturers which run Android on their phones include Samsung, Huawei, Sony, Lenovo, HTC, LG and many others; it's currently operational on more than one billion devices.\n
+It comes from Google, who actually acquired Android in 2005 (no, Google didn't invent it). The search giant performs regular updates along with an annual major update.\n
+The operating system is based on the Linux kernel – if you have friends who work in IT, you may have heard of it. This is the GNU / Linux operating system based structure, which is a unix type system (portable operating system, multitasking and multi-user). The Linux kernel is one of the most prominent examples of free software.\n
+"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/article6_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="more....."
+                    android:gravity="top|center"
+                    android:textColor="#0f0"
+                    android:background="#fff"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

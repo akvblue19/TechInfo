@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abt1"
+    android:orientation="vertical"
+    tools:context="com.example.dell.techinfo.contactus">
+
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:text="CONTACT US ON"
+         android:textColor="#fff"
+         android:textSize="30sp"
+         android:layout_marginTop="100dp"
+         android:gravity="center"
+         android:textStyle="bold"
+         />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:text="email id:"
+         android:textColor="#fff"
+         android:textSize="30sp"
+         android:gravity="center_horizontal"
+         />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="60dp"
+         android:text="erakverma97@gmail.com"
+         android:textColor="#fff"
+         android:textSize="30sp"
+         android:gravity="center"
+         android:textStyle="bold"
+         />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="80dp"
+         android:text="kishanrai.whsms@yahoo.com"
+         android:textColor="#fff"
+         android:textSize="25sp"
+         android:gravity="center"
+         android:textStyle="bold"
+         />
+ </LinearLayout>
+</LinearLayout>

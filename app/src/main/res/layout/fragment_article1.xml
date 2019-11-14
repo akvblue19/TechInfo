@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.techinfo.article1">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:text="Artificial intelligence (AI) has received increased attention in recent years. Innovation, made possible through the Internet, has brought AI closer to our everyday lives. These advances, alongside interest in the technology’s potential socio-economic and ethical impacts, brings AI to the forefront of many contemporary debates. Industry investments in AI are rapidly increasing [3], and governments are trying to understand what the technology could mean for their citizens. [4]
+
+The collection of “Big Data” and the expansion of the Internet of Things (IoT), has made a perfect environment for new AI applications and services to grow. Applications based on AI are already visible in healthcare diagnostics, targeted treatment, transportation, public safety, service robots, education and entertainment, but will be applied in more fields in the coming years. Together with the Internet, AI changes the way we experience the world and has the potential to be a new engine for economic growth.
+
+Current Uses of AI:
+
+Although artificial intelligence evokes thoughts of science fiction, artificial intelligence already has many uses today, for example:
+
+Email filtering: Email services use artificial intelligence to filter incoming emails. Users can train their spam filters by marking emails as “spam”.
+Personalization: Online services use artificial intelligence to personalize your experience. Services, like Amazon or Netflix, “learn” from your previous purchases and the purchases of other users in order to recommend relevant content for you.
+Fraud detection: Banks use artificial intelligence to determine if there is strange activity on your account. Unexpected activity, such as foreign transactions, could be flagged by the algorithm.
+Speech recognition: Applications use artificial intelligence to optimize speech recognition functions. Examples include intelligent personal assistants, e.g. Amazon’s “Alexa” or Apple’s “Siri”."/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:id="@+id/article1_more"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="more....."
+           android:gravity="top|center"
+           android:textColor="#0f0"
+           android:background="#fff"/>
+   </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>

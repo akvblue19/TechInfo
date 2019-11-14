@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.techinfo.video2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/video2_1"/>
+
+                <Button
+                    android:id="@+id/video2_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="#c4302b"
+                    android:textColor="#fff"
+                    android:layout_margin="5dp"
+                    android:text="Thinking Forward about cloud computing | John Easton | TEDxLancasterU"/>
+            </LinearLayout>
+            <View
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:background="#808080"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/video2_2"/>
+                <Button
+                    android:id="@+id/video2_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="#c4302b"
+                    android:textColor="#fff"
+                    android:layout_margin="5dp"
+                    android:text="TEDxJuanDeFuca - Carl Schmidt - Cloud Computing"/>
+            </LinearLayout>
+            <View
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:background="#808080"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/video2_3"
+                    android:scaleType="fitXY"
+                    android:layout_margin="5dp"/>
+
+                <Button
+                    android:id="@+id/video2_3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="#c4302b"
+                    android:textColor="#fff"
+                    android:layout_margin="5dp"
+                    android:text="The Cloud Imperative: Michael Crandell at TEDxSanLuisObispo"/>
+            </LinearLayout>
+            <View
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:background="#808080"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/video2_4"
+                    android:scaleType="fitXY"
+                    android:layout_margin="5dp"/>
+                <Button
+                    android:id="@+id/video2_4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="#c4302b"
+                    android:textColor="#fff"
+                    android:layout_margin="5dp"
+                    android:text="TEDxDelft - Erik Meijer - Wisdom of the cloud"/>
+            </LinearLayout>
+            <View
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:background="#808080"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/video2_5"
+                    android:scaleType="fitXY"
+                    android:layout_margin="5dp"/>
+                <Button
+                    android:id="@+id/video2_5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="#c4302b"
+                    android:textColor="#fff"
+                    android:layout_margin="5dp"
+                    android:text="Cloud Computing: The Next — And Last — Great Technology Architecture"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.techinfo.article3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:text="The Internet of Things, at its simplest level, is smart devices - from refrigerators that warn you when you’re out of milk to industrial sensors – that are connected to the Internet so they can share data, but IoT is far from a simple challenge for IT departments.\n
+For many companies, it represents a vast influx of new devices, many of which are difficult to secure and manage. It’s comparable to the advent of BYOD, except the new gizmos are potentially more difficult to secure, aren’t all running one of three or four basic operating systems, and there are already more of them.\n
+A lot more, in fact – IDC research says that there are around 13 billion connected devices in use worldwide already, and that that number could expand to 30 billion within the next three years. (There were less than 4 billion smartphone subscriptions active around the world in Ericsson’s most recent Mobility Report.) \n
+The full benefits of the Internet of Things are only realized when large enough numbers of devices are able to interact with each other – and therein lies a big problem. The number of different players in the market covers a wide range, both horizontally, in terms of functionality, and vertically, among different industries.\n
+With a huge number of companies “doing IoT,” – most big-name tech companies, including Google, Microsoft, Apple, Cisco, Intel, and IBM have various types of IoT play – all working to bring as many users as possible into their respective ecosystems, motivation to make sure IoT systems and devices from different companies all work with each other is sometimes lacking.
+"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/article3_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="more....."
+                    android:gravity="top|center"
+                    android:textColor="#0f0"
+                    android:background="#fff"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

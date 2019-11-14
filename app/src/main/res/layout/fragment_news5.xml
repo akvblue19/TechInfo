@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.techinfo.news5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/imagenews5"
+                android:scaleType="fitXY"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_margin="9dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:textSize="25dp"
+                        android:textColor="#000"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:text="Using machine learning to improve patient care"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:text="New CSAIL research employs many types of medical data, including electronic health records, to predict outcomes in hospitals"
+                        android:textSize="20sp"
+                        android:padding="10dp"
+                        android:textColor="#000"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                       android:text="Doctors are often deluged by signals from charts, test results, and other metrics to keep track of. It can be difficult to integrate and monitor all of these data for multiple patients while making real-time treatment decisions, especially when data is documented inconsistently across hospitals.
+In a new pair of papers, researchers from MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL) explore ways for computers to help doctors make better medical decisions.
+One team created a machine-learning approach called “ICU Intervene” that takes large amounts of intensive-care-unit (ICU) data, from vitals and labs to notes and demographics, to determine what kinds of treatments are needed for different symptoms. The system uses “deep learning” to make real-time predictions, learning from past ICU cases to make suggestions for critical care, while also explaining the reasoning behind these decisions.
+“The system could potentially be an aid for doctors in the ICU, which is a high-stress, high-demand environment,” says PhD student Harini Suresh, lead author on the paper about ICU Intervene. “The goal is to leverage data from medical records to improve health care and predict actionable interventions.”
+Another team developed an approach called “EHR Model Transfer” that can facilitate the application of predictive models on an electronic health record (EHR) system, despite being trained on data from a different EHR system. Specifically, using this approach the team showed that predictive models for mortality and prolonged length of stay can be trained on one EHR system and used to make predictions in another.
+ICU Intervene was co-developed by Suresh, undergraduate student Nathan Hunt, postdoc Alistair Johnson, researcher Leo Anthony Celi, MIT Professor Peter Szolovits, and PhD student Marzyeh Ghassemi. It was presented this month at the Machine Learning for Healthcare Conference in Boston.
+"
+                        android:textColor="#000"
+                        android:textSize="15sp"
+                        android:padding="10dp"/>
+
+                    />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:id="@+id/more5"
+                android:text="more...."
+                android:textColor="#0f0"
+                android:textSize="15sp"
+                android:background="#fff"
+                android:gravity="top"
+
+                android:layout_margin="10dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

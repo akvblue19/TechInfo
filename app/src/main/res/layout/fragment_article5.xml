@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.techinfo.article4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+               android:text="Speech recognition is a technology that allows spoken input into systems. You talk to your computer, phone or device and it uses what you said as input to trigger some action. The technology is being used to replace other methods of input like typing, clicking or selecting in other ways. It is a means to make devices and software more user-friendly and to increase productivity.\n
+There are plenty of applications and areas where speech recognition is used, including the military, as an aid for impaired persons (imagine a person with crippled or no hands or fingers), in the medical field, in robotics etc.\n
+In the near future, nearly everyone will be exposed to speech recognition due to its propagation among common devices like computers and mobile phones.\n
+Applications of Speech Recognition \n
+The technology is gaining popularity in many areas and has been successful in the following: \n
+- Device control. Just saying OK Google to an Android phone fires up a system that is all ears to your voice commands. \n
+- Car Bluetooth systems. Many cars are equipped with a system that connects its radio mechanism to your smartphone through Bluetooth. You can then make and receive calls without touching your smartphone, and can even dial numbers by just saying them. \n
+- Voice transcription.\n
+In areas where people have to type a lot, some intelligent software captures their spoken words and transcribe them into text. This is current in certain word processing software. Voice transcription also works with voicemail.
+
+"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/article5_more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="more....."
+                    android:gravity="top|center"
+                    android:textColor="#0f0"
+                    android:background="#fff"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

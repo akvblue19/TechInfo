@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.techinfo.video3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/video3_1"/>
+
+                <Button
+                    android:id="@+id/video3_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="#c4302b"
+                    android:textColor="#fff"
+                    android:layout_margin="5dp"
+                    android:text="How It Works: Internet of Things"/>
+            </LinearLayout>
+            <View
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:background="#808080"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="fitXY"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/video3_2"/>
+                <Button
+                    android:id="@+id/video3_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="#c4302b"
+                    android:textColor="#fff"
+                    android:layout_margin="5dp"
+                    android:text="The internet of things | Jordan Duffy | TEDxSouthBank"/>
+            </LinearLayout>
+            <View
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:background="#808080"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/video3_3"
+                    android:scaleType="fitXY"
+                    android:layout_margin="5dp"/>
+
+                <Button
+                    android:id="@+id/video3_3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="#c4302b"
+                    android:textColor="#fff"
+                    android:layout_margin="5dp"
+                    android:text="Internet Of Things | Steve Stathis Tzikakis | TEDxAcademy"/>
+            </LinearLayout>
+            <View
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:background="#808080"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/video3_4"
+                    android:scaleType="fitXY"
+                    android:layout_margin="5dp"/>
+                <Button
+                    android:id="@+id/video3_4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="#c4302b"
+                    android:textColor="#fff"
+                    android:layout_margin="5dp"
+                    android:text="The Internet of Things: Dr. John Barrett at TEDxCIT"/>
+            </LinearLayout>
+            <View
+                android:layout_width="200dp"
+                android:layout_height="2dp"
+                android:background="#808080"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/video3_5"
+                    android:scaleType="fitXY"
+                    android:layout_margin="5dp"/>
+                <Button
+                    android:id="@+id/video3_5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="#c4302b"
+                    android:textColor="#fff"
+                    android:layout_margin="5dp"
+                    android:text="What is the Internet of Things? And why should you care? | Benson Hougland | TEDxTemecula"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
