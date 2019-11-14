@@ -3,4 +3,4 @@ It is a simple Android Application with information of various technologies.
 
 # Screenshots
 
-<img src="images/splash.jpeg" height="350" width="200">
+<img src="images/splash.jpeg" height="500" width="300">
